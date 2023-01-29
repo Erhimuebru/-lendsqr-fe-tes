@@ -1,0 +1,91 @@
+.user-details-div{
+    box-sizing: border-box;
+    width: 1037px;
+    height: 910px;
+    left: 343px;
+    top: 530px;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding-left: 3rem;
+    position: absolute;
+}
+
+.personal-information{
+    
+    border-bottom:  1px solid rgba(33, 63, 125, 0.06);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4rem;
+    padding-bottom: 2rem;
+}
+
+.personal-div{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 19px;
+    margin-top: 2rem;
+    color: #213F7D;
+}
+.personal-info{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: uppercase;
+    padding-top: -7rem;
+    color: #545F7D;
+}
+.personal-inf{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 14px;
+    text-transform: uppercase;
+    padding-top: -7rem;
+    color: #545F7D;
+    margin-top: -2rem;
+}
+.person{
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-transform: uppercase;
+/* margin-bottom: 2rem; */
+
+color: #545F7D;
+}
+
+.eduction-employment{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-bottom:  1px solid rgba(33, 63, 125, 0.06);
+    padding-bottom: 2rem;
+}
+
+.social{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom:  1px solid rgba(33, 63, 125, 0.06); 
+    padding-bottom: 2rem;
+    /* gap: -5rem;
+    padding-left: -5rem;
+    padding-right: -5rem; */
+}
+
+.guarantor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 2rem;
+    gap: 4rem;
+    /* border-bottom:  1px solid rgba(33, 63, 125, 0.06);  */
+}

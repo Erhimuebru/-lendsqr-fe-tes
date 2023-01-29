@@ -1,0 +1,214 @@
+.all{
+    margin-top: -43rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    float: right;
+    margin-right: 6rem;
+    width: 70%;
+    height: 300px;
+
+
+}
+.user-title{
+    width: 66px;
+    height: 28px;
+    left: 343px;
+    margin-bottom: 3rem;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #213F7D;
+}
+.users-div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+}
+
+.user-div{
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 240px;
+    height: 190px;
+    left: 875px;
+}
+
+.user-icon{
+    width: 40px; 
+     height: 40px;
+    left: 1170px;
+    top: 248px;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    border: 0.2px solid #DF18FF;
+    background: #DF18FF;
+    opacity: 0.2;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 0.7rem;
+}
+.user-group-icon{
+    width: 40px; 
+     height: 40px;
+    left: 1170px;
+    top: 248px;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    background: #5718FF;
+    color: black;
+    opacity: 0.2;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 0.7rem;
+}
+
+.saving-icon{
+    width: 40px; 
+    height: 40px;
+    left: 1170px;
+    top: 248px;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    background: #F55F44;
+    color: black;
+    opacity: 0.2;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    padding-left: 0.9rem;
+    font-size: 1.5rem;
+}
+
+.loans-icon{
+    width: 40px; 
+    height: 40px;
+    left: 1170px;
+    top: 248px;
+    border-radius: 50%;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    background: #F55F44;
+    color: black;
+    opacity: 0.2;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 0.7rem;
+    font-size: 2rem;
+ 
+}
+
+.user-h3{
+    width: 75px;
+    height: 28px;
+    left: 905px;
+    top: 330px;
+    margin-left: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #213F7D;
+}
+
+.user-p{
+    width: 47px;
+    height: 16px;
+    margin-left: 30px;
+    padding-top: 302px;
+    margin-top: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #545F7D;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .all{
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        float: none;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+    }
+    .user-title{
+        width: 100%;
+        left: 0;
+        font-size: 18px;
+    }
+    .users-div{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 1rem;
+    }
+    .user-div{
+        width: 90%;
+        height: auto;
+        left: 0;
+    }
+    .user-icon{
+        width: 30px; 
+        height: 30px;
+        left: 0;
+        margin-left: 5rem;
+    }
+    .user-group-icon{
+        width: 30px; 
+        height: 30px;
+        left: 0;
+        margin-left: 5rem;
+    }
+    .saving-icon{
+        width: 30px; 
+        height: 30px;
+        left: 0;
+        margin-left: 5rem;
+        font-size: 1rem;
+    }
+    .loans-icon{
+        width: 30px; 
+        height: 30px;
+        left: 0;
+        margin-left: 5rem;
+        font-size: 1.5rem;
+    }
+    .user-h3{
+        width: 100%;
+        left: 0;
+        font-size: 18px;
+        margin-left: 5rem;
+    }
+    .user-p{
+        width: 100%;
+        margin-left: 0;
+        font-size: 14px;
+        margin-left: 4rem;
+    }
+}

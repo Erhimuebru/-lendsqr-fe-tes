@@ -1,0 +1,68 @@
+.filter-btn{
+    color:  #545F7D;
+    background-color:#FFFFFF;
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+.filter-button{
+    box-sizing: border-box;
+    width: 98px;
+    height: 40px;
+    left: 490px;
+    top: 1020px;
+    background: #39CDCC;
+    border: 1px solid #39CDCC;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.reset-btn{
+    box-sizing: border-box;
+    width: 98px;
+    height: 40px;
+    left: 490px;
+    top: 1020px;
+    border: 1px solid #545F7D;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #545F7D;
+    cursor: pointer;
+    
+}
+
+.btn-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.customModal{
+    width: 250px;
+    height: 30px;
+  
+ }
+ .customModal-c {
+    box-sizing: border-box;
+    width: 70px;
+    height: 650px;
+    left: 358px;
+    display: inline-flex;
+    border-radius: 10px;
+    margin-left: -1rem;
+    margin-top: 15rem;    
+}
+
+.form-field{
+    padding-top: 0.2rem;
+}
+
+.form-s{
+    margin-top: 0.2rem;
+}
+
+ 
